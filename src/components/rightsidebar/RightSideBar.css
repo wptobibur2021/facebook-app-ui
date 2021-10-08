@@ -1,0 +1,68 @@
+.rightSidebar {
+    flex: 3;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+}
+
+img.birthdayImg {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+span.birthdayText {
+    font-size: 15px;
+}
+
+.rightSidebarWarapper {
+    padding-top: 20px;
+}
+
+img.addsImg {
+    width: 100%;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+ul.rightBarFriendList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img.rightBarprofileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.rightBarProfileImgContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+li.rightBarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+span.onlineFriendCheck {
+    position: absolute;
+    width: 12px;
+    background-color: greenyellow;
+    height: 12px;
+    border-radius: 50%;
+    top: 0;
+    right: 11px;
+    border: 2px solid #fff;
+}

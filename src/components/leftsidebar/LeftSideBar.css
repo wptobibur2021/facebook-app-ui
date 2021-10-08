@@ -1,0 +1,72 @@
+.leftSidebar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    padding: 20px;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #e5e4f6;
+    border-radius: 7px;
+}
+
+ul.leftSidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li.left-sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftSidebarIcon {
+    margin-right: 20px;
+}
+
+button.showMore {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4f4aca;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.divider {
+    border-bottom: 1px solid #fee5e5;
+    margin-bottom: 20px;
+}
+
+ul.friendLists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li.friendList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+img.friendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+

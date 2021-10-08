@@ -1,0 +1,98 @@
+.posts {
+    /* padding: 20px; */
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(124,124,124,0.54);
+    box-shadow: 0px 0px 30px 0px rgba(124,124,124,0.54);
+}
+
+.postsWrapper {
+    padding: 15px;
+}
+
+img.postProfileImag {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postLeft {
+    display: flex;
+    align-items: center;
+}
+
+span.postUserName {
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+span.postDate {
+    font-size: 12px;
+}
+.postIcon {
+    cursor: pointer;
+}
+
+span.postUserName {
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+span.postDate {
+    font-size: 12px;
+}
+
+.postIcon {
+    cursor: pointer;
+}
+
+.postCenter {
+    margin: 20px 0px;
+}
+
+img.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+}
+
+
+.postBotton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+img.postReactionIcon {
+    width: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+span.likeReaction {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+span.comments {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 1px dashed #bfbbbb;
+}

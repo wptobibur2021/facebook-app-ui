@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+.mainConatiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
