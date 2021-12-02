@@ -1,5 +1,5 @@
-import Home from './pages/Home'
+import RouterNav from './Router/RouterNav';
 function App() {
-  return <Home/>
+  return <RouterNav></RouterNav>
 }
 export default App;

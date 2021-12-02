@@ -52,7 +52,7 @@ input.shareInput:focus {
 .shareOption {
     display: flex;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 24px;
     cursor: pointer;
 }
 
